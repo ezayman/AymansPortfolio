@@ -129,7 +129,7 @@ function App() {
         </div>
         <div className="portrait-wrap">
           <div className="portrait-frame">
-            <img src="/portrait.png" alt="Portrait of Aymane Ezzourkani" />
+            <img src={`${import.meta.env.BASE_URL}portrait.png`} alt="Portrait of Aymane Ezzourkani" />
           </div>
           <div className="portrait-caption">
             <span className="caption-dot" /> CURIOUS BY NATURE <span>·</span>{" "}
